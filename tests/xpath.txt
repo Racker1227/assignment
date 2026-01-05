@@ -1,0 +1,63 @@
+
+// Absolute xpath -- it is dynamic xpath normally we are not used
+Absolute xpath - /html/body/div[2]/div/div/div/div[2]/span[1]
+
+// Relative xpath - it is static xpath mostly we used this.
+Relative xpath - 
+    1) (//tagname[@attribute='value'])[number]
+            ex - (//span[@class='stockname'])[2]
+
+    2) //tagname[text()='tagvalue']
+            ex - //span[text()='Zomato - Food delivery']
+
+    3) //tagname[contains(text(),'value')]
+             ex- //span[contains(text(),'mato')]
+
+    4) //tagname[starts-with(text(),'value')]
+            ex- //span[starts-with(text(),'Zoma')]
+
+// hybrid xpath (comnbine both xpath) - 
+//Realtive xpath (span[contains(text(),'value')]) + Absolute xpath (/../../td[3]/span
+)
+
+ex-//span[contains(text(),'CricBuzz')]/../../td[3]/span
+
+
+
+(../ - it mean back)
+//div[contains(text(),'Wednesday Stock Prices')]/../../div/div/div/table/tbody/tr[3]
+//div[text()="Friday Stock Prices"]/..//span[text()="Uber"]
+
+// xpath axes - 13 types
+
+
+ (//input[@id='twotabsearchtextbox'])
+
+// ancestor   = 
+//div[@id="day4section"]/ancestor::*
+//div[@id="day4section"]/ancestor::div[last()]
+
+// descendant = 
+//div[@id="day4section"]/descendant::*
+//div[@id="day4section"]/descendant::span[text()='HDFC Bank']
+
+// following  = next all childs and their subchild ...
+
+// preceding = previous all childs and their subchild ...
+
+// following-sibling = //div[text()='Thursday Stock Prices']/following-sibling::div//span[text()='HDFC Bank']
+
+// preceding-sibling = //div[text()='Thursday Stock Prices']/following-sibling::*
+
+// ancestor-or-self = //div[text()='Thursday Stock Prices']/ancestor-or-self::*
+
+// descendant-or-self = //div[text()='Thursday Stock Prices']/descendant-or-self::*
+
+// parent
+// child
+
+
+
+===========================================================
+
+//CSS selector 

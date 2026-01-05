@@ -1,0 +1,72 @@
+[
+  {
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerYear": "2015",
+    "playerRole": "Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerYear": "2016",
+    "playerRole": "Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "MS Dhoni",
+    "playerCountry": "India",
+    "playerYear": "2014",
+    "playerRole": " Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Sachin Tendulkar",
+    "playerCountry": "India",
+    "playerYear": "2011",
+    "playerRole": "Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Yuvraj Singh",
+    "playerCountry": "India",
+    "playerYear": "2012",
+    "playerRole": "Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerYear": "2018",
+    "playerRole": "Bowler",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Hardik Pandya",
+    "playerCountry": "India",
+    "playerYear": "2017",
+    "playerRole": "Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Shikhar Dhawan",
+    "playerCountry": "India",
+    "playerYear": "2013",
+    "playerRole": "Batsman",
+    "playerGender": "Male"
+  },
+  {
+    "playerName": "Smriti Mandhana",
+    "playerCountry": "India",
+    "playerYear": "2019",
+    "playerRole": "Batsman",
+    "playerGender": "Female"
+  },
+  {
+    "playerName": "Mithali Raj",
+    "playerCountry": "India",
+    "playerYear": "2010",
+    "playerRole": "Batsman",
+    "playerGender": "Female"
+  }
+]
