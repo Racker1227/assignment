@@ -8,7 +8,7 @@ test("testcase2 - demo", async({page}) => {
     await page.goto("https://www.gmail.com");
 });
 
-test.only("testcase3 - demo", async({page}) => {  // if we want run only 1-testcase
+test("testcase3 - demo", async({page}) => {  // if we want run only 1-testcase
     await page.goto("https://www.facebook.com");
 });
 
