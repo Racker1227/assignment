@@ -146,7 +146,7 @@ test("testcase6 - Add new player in Cricket Database", async({page}) => {
 });
 
 
-test.only("testcase7 - Add Statistics for new player", async({page}) => {
+test("testcase7 - Add Statistics for new player", async({page}) => {
 
     //goto link
     await page.goto("http://localhost:3000"); 
